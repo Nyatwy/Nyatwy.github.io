@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+	background-color: #010001;
+	margin: 0;
+	color: #FFF;
+	padding-top: 53px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header {
+	max-width: 1231px;
+	width: 90%;
+	height: 16.71px;
+	margin: auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.list {
+	margin: 0;
+	padding: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	list-style: none;
+}
+
+.item-link {
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 12px;
+}
+
+.second-nav .item-link {
+	color: #808080;
+}
+
+.falcon {
+	max-width: 1231px;
+	width: 90%;
+	height: 133px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 120px;
+	padding-bottom: 10px;
+	position: relative;
+
+
+}
+
+.falcon h1 {
+	font-family: Roboto;
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 26px;
+	margin-top: 0;
+}
+
+.description {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22.4px;
+	text-transform: lowercase;
+	text-align: center;
+	max-width: 268px;
+	margin: auto;
+
+}
+
+.vl {
+	width: 1px;
+	height: 60px;
+	margin: auto;
+	background-color: white;
+	margin-top: 26px;
+}
+
+.video {
+	height: 750px;
+	max-width: 1231px;
+	width: 90%;
+	margin: auto;
+	z-index: 3;
+}
+
+.features {
+	max-width: 1231px;
+	width: 90%;
+	margin: auto;
+	padding: 50px 0;
+	position: static;
+
+}
+
+.features-title {
+	width: 177px;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 140%;
+	text-transform: uppercase;
+	padding-bottom: 45px;
+}
+
+.table {
+	margin-bottom: 200px;
+}
+
+.table-column {
+	width: 300px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 18px;
+	line-height: 179.69%;
+	border: 1px solid #000000;
+}
+
+.features-text {
+	max-width: 490px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 29px;
+
+}
+
+.features .rocket {
+	position: absolute;
+	right: 0;
+	top: 1400px;
+	z-index: 1;
+}
+
+.footer {
+	max-width: 1231px;
+	width: 90%;
+	margin: auto;
+	margin-top: 183px;
+}
+
+img.logo-footer {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+.footer-link {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.footer-menu {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0 10px;
+}
+
+.footer-contact {
+	color: #808080;
+	text-align: center;
+	margin-top: 23px;
+}
+
+.footer-btn {
+	width: 260px;
+	height: 60px;
+	border-radius: 6px;
+	border: 2px solid #ffffff;
+	background-color: transparent;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 130px;
+
+}
+
+.footer-btn a{
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+}
